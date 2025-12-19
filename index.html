@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Tally - BLACKPINK</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(120deg, #0f172a, #020617);
+    color: #e5e7eb;
+}
+
+/* HEADER */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(15,23,42,0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 15px 20px;
+}
+
+.header-content {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-info h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.song-info p {
+    margin: 3px 0 0;
+    font-size: 13px;
+    color: #9ca3af;
+}
+
+/* SEARCH */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #e5e7eb;
+    padding: 8px 12px 8px 35px;
+    border-radius: 10px;
+    width: 180px;
+    outline: none;
+}
+
+.search-box i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* ICONS */
+.icons i {
+    margin-left: 12px;
+    cursor: pointer;
+    color: #c7d2fe;
+    transition: .3s;
+}
+
+.icons i:hover {
+    color: #6366f1;
+}
+
+/* LYRICS */
+.lyrics-wrapper {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.lyrics {
+    max-width: 600px;
+    text-align: center;
+    white-space: pre-line;
+    line-height: 1.9;
+    font-size: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<div class="header">
+    <div class="header-content">
+        <div class="song-info">
+            <h1>stay a little longer</h1>
+            <p>ROSÉ</p>
+        </div>
+
+        <div class="search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Cari lagu...">
+        </div>
+
+        <div class="icons">
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+    </div>
+</div>
+
+<!-- LYRICS -->
+<div class="lyrics-wrapper">
+    <div class="lyrics">
+Stay a little longer, take a little longer
+To pack up your bags, you're movin' too fast
+Make me wanna hate you, so I don't have to miss you
+Or make a mistake, so someone's to blame
+
+I can't stand these four walls without you inside them
+Build us a castle, but then leave me in silence
+What if I tangled some rope 'round your feet
+Into the ocean, 'cause I'm in too deep?
+
+Please, won't you stay, stay a little longer, babe?
+Don't walk away when I'm here callin' your name
+I'm fragile, I'm speechless, don't leave me in pieces
+Already havin' enough trouble breathin'
+
+Please, won't you stay, stay a little longer, babe?
+Walk a little slower, stand a little closer
+So I can convince you the minute I kiss you
+Speak a little softer, so I don't have to answer
+
+And make it okay before you can say
+I can't stand these four walls without you inside them
+Build us a castle, then leave me in silence
+What if I tangled some rope 'round your feet
+
+Into the ocean, 'cause I'm in too deep?
+Please, won't you stay, stay a little longer, babe?
+I'll be okay, you say it's written all over my face
+I'm fragile, I'm speechless, don't leave me in pieces
+
+Already havin' enough trouble breathin'
+Please, won't you stay, stay a little longer, babe?
+    </div>
+</div>
+
+</body>
+</html>
